@@ -58,11 +58,18 @@
           
           section:nth-child(odd){
           }
+.navbar{
+    background-color: transparent;
+}
           nav .nav-link{
               color: #6a90ac !important;
           }
           nav .nav-link:hover{
               color: #3a3491 !important;
+              transition: 1s all;
+              -webkit-transition: 1s all;
+              -o-transition: 1s all;
+              -moz-transition: 1s all;
           }
           
           .navbar-brand img{
@@ -126,6 +133,23 @@
 }
 .services-content .card{
     margin-bottom: 10px;
+}
+.btn,
+.btn:focus,
+.btn:active,
+.btn:visited{
+    border: 1px solid #1175bc;
+    background-color: transparent;
+    font-size: 19px;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -o-transition:1s all;
+    -moz-transition:1s all;
+    color:#1175bc;
+    font-weight: 500;
+}
+.btn:hover{
+    color: #fff;
 }
         
 

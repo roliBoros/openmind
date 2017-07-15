@@ -1,0 +1,197 @@
+ /*
+          lightblue - #1175bc
+            darkblue - #3a3491
+            purple - #662f91
+            lighterblue - #6a90ac
+            lighterblack - #333f43
+          */
+*{
+    margin: 0;
+    padding: 0;
+}
+          body{
+              font-family: sans-serif;
+              color:#333f43;
+              font-size: 16px;
+          }
+        .fa{
+            color:#1175bc;
+        }
+          h2{
+              color:#666;
+          }
+          .section {
+              height:100vh;
+          }
+        section{
+            padding-bottom: 50px;
+        }
+          header{
+              padding-top: 30px;
+          }
+          #home{
+              background: url(../image/homebg.jpg) no-repeat center center fixed;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover; 
+              
+           /*   background-image:linear-gradient(rgba(102,47,145,0.7),rgba(102,47,145,0.7)),url(image/londonbg.jpg);
+            background-attachment: fixed;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;*/
+
+                  }
+         
+          li {
+              margin-right: 60px;
+          }
+        .fill{
+            height: 200px;
+        }
+          .jumbotron {
+              width: 60%;
+              background-color:rgba(106, 144, 172, 0);
+              color: #6a90ac;
+          }
+          
+          section:nth-child(odd){
+          }
+          nav .nav-link{
+              color: #6a90ac !important;
+          }
+          nav .nav-link:hover{
+              color: #3a3491 !important;
+          }
+          
+          .navbar-brand img{
+              height: 60px;
+          }
+        .line{
+              width: 100px;
+              border: 1px solid #ffffff;
+              height: 2px;
+              margin: 10px auto 30px auto;
+          }
+          .line-dark{
+              width: 100px;
+              border: 1px solid #1175bc;
+              height: 2px;
+              margin: 10px auto 30px auto;
+          }
+          .card img{
+              width: 100%;
+          }
+          #card-noborder{
+              border: none;
+          }
+          
+          #aboutus, #aboutus h2{
+              background-color: #662f91;
+              color: #ffffff;
+          }
+          #aboutus{
+              padding-bottom: 60px;
+          }
+
+            #services{
+                background-color: #1175bc;
+            }
+
+        #services header h2{
+            color:#ffffff;
+        }
+        .footer{
+            height: 60px;
+            background-color: #999;
+            margin: 0;
+            padding: 0;
+            
+}
+.footer-content{
+    padding-top: 20px;
+}
+
+
+.services-content .card-title{
+    margin-bottom: 20px;
+}
+.services-content .card-text{
+    color: #6a90ac;
+}
+.services-content .card, .services-content .card-footer{
+    border: none;
+    background-color: #ffffff;
+}
+.services-content .card{
+    margin-bottom: 10px;
+}
+        
+
+     @media (max-width: 767px) { 
+        .home-wrapper .display-5{
+            font-size: 1.5em;
+        }
+         .fill{
+            
+            height: 0px;
+        }
+        .jumbotron {
+              width: 100%;
+              background-color:rgba(106, 144, 172, 0);
+              color: #6a90ac;
+          }
+         .navbar-brand img{
+             height: 30px;
+         }
+}
+
+    @media (max-width: 575px) {
+        
+        .home-wrapper .display-5{
+            font-size: 1.5em;
+        }
+        .fill{
+            
+            height: 100px;
+        }
+        .jumbotron .display-5{
+              width: 100%;
+              background-color:rgba(106, 144, 172, 0);
+              color: #6a90ac;
+          }
+        .navbar-brand img{
+             height: 30px;
+         }
+        #aboutus header{
+        }
+        .aboutus-content p{
+            font-size: 0.9rem;
+        }
+        
+    }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #card-noborder .mb-0{
+        font-size: 0.9rem;
+    }
+    
+     .home-wrapper .display-5{
+            font-size: 2.2em;
+        }
+        .fill{
+            
+            height: 100px;
+        }
+        .jumbotron .display-5{
+              width: 100%;
+              background-color:rgba(106, 144, 172, 0);
+              color: #6a90ac;
+          }
+        .navbar-brand img{
+             height: 40px;
+         }
+}
+
+   
